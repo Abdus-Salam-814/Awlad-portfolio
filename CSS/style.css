@@ -51,6 +51,12 @@ max-width: 60rem;
 .mt-4{
     margin-top: 4rem;
 }
+.mt-5{
+    margin-top: 5rem;
+}
+.mb-5{
+    margin-bottom: 5rem;
+}
 .mt-1-5{
     margin-top: 1.5rem;
 }
@@ -63,6 +69,12 @@ max-width: 60rem;
 }
 .border-1{
     border: 1px solid #0D1321;;
+}
+.iframe-border{
+    padding: 2rem;
+    border-radius: 1rem;
+    border: 1px double rgba(13, 19, 33, 0.20);
+
 }
 /* ===========Flex======== */
 .flex{
