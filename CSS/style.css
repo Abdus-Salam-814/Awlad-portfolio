@@ -175,6 +175,9 @@ max-width: 60rem;
 .p-2{
     padding: 2rem;
 }
+.p-1-{
+    padding: .5rem;
+}
 .p-2-5{
     padding: 2.5rem;
 }
@@ -290,3 +293,18 @@ background: rgba(255, 76, 30, 0.05);
     border-radius: 1rem;
     background: rgba(0, 76, 232, 0.05);
     }
+
+    .list-style-none{
+        list-style: none;
+    }
+nav > ul > li > a{
+    text-decoration: none;
+}
+
+header > nav{
+    background: #FFF;
+}
+
+.log-tex-p{
+    padding: 1rem 2rem;
+}
