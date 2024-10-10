@@ -10,12 +10,147 @@
     margin: 0;
     padding: 0;
 }
+body{
+    max-width: 90rem;
+    margin: 0 auto;
+    border: 3px solid blue;
 
+}
 
 /* Common CSS Class Started Here */
 
+/* ========Width========== */
+.mw-62{
+    max-width: 35rem;
+}
+.mw-50{
+    width: 35rem;
+    border: #0D1321 3px solid;
+}
+.w-10{
+    width: 10%;
+}
+.w-100{
+    width: 100%;
+}
+/* ======Margin===== */
+.mb-2{
+    margin-bottom: 2rem;
+}
+.mx-auto{
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-start{
+    justify-content: start;
+}
+.justify-end{
+    justify-content: end;
+}
+.flex-space-between{
+    justify-content: space-between;
+}
+.flex-space-around{
+    justify-content: space-around;
+}
+.flex-space-evenly{
+    justify-content: space-evenly;
+}
+.items-center{
+    justify-items: center;
+}
+.items-end{
+    justify-items: end;
+}
+/* ============================== */
+.text-3{
+    font-size: 3rem;
+}
+.text-2{
+    font-size: 2rem;
+}
+.text-1-7-5{
+    font-size: 1.75rem;
+}
+.text-1-5{
+    font-size: 1.5rem;
+}
+.text-1-2-5{
+    font-size: 1.25rem;
+}
+.text-1{
+    font-size: 1rem;
+}
+/* ============Text Align========== */
+.text-cente{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.text-left{
+    text-align: left;
+}
+/* ===========Color======= */
+.text-black{
+   color: #0D1321;
+}
+.text-white{
+    color: #FFF;
+}
+/* ============Font Width===== */
+.font-bold{
+    font-weight: 700;
+}
+.font-xl{
+    font-weight: 800;
+}
+/* ======padding===== */
+.py-2{
+    padding: 2.5rem ;
+}
+
+/* =============BackGround========== */
+
+.bg-black{
+    background: #0D1321;
+}
+
+/*================ Opacity ================*/
+.op-7{
+    opacity: 0.7;
+}
+/* =====Line Hight====== */
+.lh-3{
+    line-height: 3.25rem;
+}
+.lh-1{
+    line-height: 1.625rem; 
+}
+
+/* ========Button========= */
+.btn{
+    border-radius: 0.5rem;
+    
+    padding: 1.1rem 3rem;
+    text-align: center;
+    font-family: "Azeret Mono";
+    font-size: 1.25rem;
+    font-weight: 600;
+    
+   
+    }
+
 /* Common CSS Class Ends Here */
 #top-banner{
-    min-height: 12px;
-    border: 3px solid blue;
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
