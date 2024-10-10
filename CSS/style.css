@@ -1,0 +1,21 @@
+/* Google Fonts Link  */
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Google Font Class */
+.azeret-mon{
+    font-family: "Azeret Mono", monospace;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Common CSS Class Started Here */
+
+/* Common CSS Class Ends Here */
+#top-banner{
+    min-height: 12px;
+    border: 3px solid blue;
+}
