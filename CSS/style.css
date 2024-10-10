@@ -13,7 +13,7 @@
 body{
     
     margin: 0 auto;
-    border: 3px solid blue;
+    /* border: 3px solid blue; */
 
 }
 
@@ -26,8 +26,9 @@ body{
 .w-53{
     width: 53rem;
 }
-.mw-35{
-    max-width: 35rem;
+.w-30{
+    width: 20rem;
+    
 }
 .mw-60{
 max-width: 60rem;
@@ -47,6 +48,9 @@ max-width: 60rem;
 }
 .mx-auto{
     margin: 0 auto;
+}
+.my-auto{
+    margin: auto 0;
 }
 .mt-4{
     margin-top: 4rem;
@@ -141,7 +145,7 @@ max-width: 60rem;
     font-size: 1rem;
 }
 /* ============Text Align========== */
-.text-cente{
+.text-center{
     text-align: center;
 }
 .text-right{
@@ -161,6 +165,9 @@ max-width: 60rem;
 .font-bold{
     font-weight: 700;
 }
+.font-think{
+    font-weight: 600;
+}
 .font-xl{
     font-weight: 800;
 }
@@ -170,6 +177,10 @@ max-width: 60rem;
 }
 .py-2{
     padding: 2.5rem ;
+}
+.py-25{
+    padding-top: 10%;
+    padding-bottom: 25%;
 }
 /* ========Border redus===== */
 .round-1{
@@ -205,13 +216,13 @@ max-width: 60rem;
 }
 
 /* ========Button========= */
-.btn{
+.btn, .message{
     border-radius: 0.5rem;
     
     padding: 1rem 2rem;
     text-align: center;
     font-family: "Azeret Mono";
-    font-size: 1.25rem;
+    
     font-weight: 600;
    
     cursor: pointer;
@@ -249,5 +260,18 @@ background: linear-gradient(270deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
 #cart-bg-3{
 
     background: linear-gradient(90deg, #FFF 0%, rgba(255, 255, 255, 0.00) 100%);
+}
+
+#need-support{
+    border-radius: 1rem;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../assets/handshake.jpg) lightgray 50% / cover no-repeat;
+    height: 20rem;
+    }
+
+footer{
+    border-radius: 1rem;
+    padding: 2rem 9.375rem;
+    background: rgba(13, 19, 33, 0.03);
+    margin-bottom: 0;
 }
 

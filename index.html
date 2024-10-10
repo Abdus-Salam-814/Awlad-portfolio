@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Awlad.H</title>
     <link rel="shortcut icon" href="./assets/Group.png" type="image/x-icon">
-
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/df6f295a11.js" crossorigin="anonymous"></script>
     <!-- Link Css -->
     <link rel="stylesheet" href="./CSS/style.css">
 </head>
@@ -18,11 +19,11 @@
                 <div class="image-container flex justify-center items-center mb-2">
                     <img class="" src="./assets/Group.png" alt="">
                 </div>
-                <div class="content text-cente pt-1 pb-1">
+                <div class="content text-center pt-1 pb-1">
                     <h1 class=" text-black text-3 font-xl lh-4">"In the near future, I hope to become a Developer."</h1>
                     <p class="lh-1 mb-2 op-7 ">In the near future, I aspire to become a skilled developer, creating innovative solutions and building impactful digital products.</p>
                     <div>
-                        <button class="btn border-none bg-black text-white ">Contact with me</button>
+                        <button onclick="location.href='#Content';" class="btn border-none bg-black text-white ">Contact with me</button>
                     </div>
                 </div>
             </div>
@@ -31,15 +32,15 @@
     <!--  header section  Ends here-->
     <main>
         <!-- Why Web Development Section Started here -->
-        <section id="why-web-development" class="mx-auto mw-60 mb-5">
-          <div class="text-cente">
+        <section id="why-web-development" class="mx-auto mw-60 md-w-100 mb-5">
+          <div class="text-center">
             <h1 class="text-black font-bold text-2 lh-3">Why Web Development?</h1>
             <p class="lh-1 op-7">Web development is essential because it powers the internet, shaping how we interact with information, businesses, and each other. It combines creativity and technical skills, offering endless opportunities to build user-friendly websites, apps, and platforms that impact millions globally.</p>
           </div>
           <!-- Do Coding section Sterd here -->
           <section class="mt-4 flex flex-col gap-2">
             <!-- Cart 1 -->
-            <div id="cart-bg-1" class="flex space-between  justify-center items-center w-53 p-2 round-1 gap-2">
+            <div id="cart-bg-1" class="flex space-between  justify-center items-center md-w-100 w-53 p-2 round-1 gap-2 md-flex-col-rev">
                 <div class=" flex justify-center items-center flex-col">
                     <h2 class="text-1-5 font-bold lh-2-5">I will Do Coding and Change The World</h2>
                 <p class="lh-1 op-7">I will code to create impactful solutions, driving innovation and making a positive difference in the world.</p>
@@ -53,7 +54,7 @@
 
             </div>
             <!-- Cart 2 -->
-            <div id="cart-bg-2" class="flex space-between  justify-center items-center w-53 p-2 round-1 flex-row-rev  gap-2 ">
+            <div id="cart-bg-2" class="flex space-between  justify-center items-center md-w-100 w-53 p-2 round-1 flex-row-rev  gap-2 md-flex-col">
                 <div class=" flex justify-center items-center flex-col">
                     <h2 class="text-1-5 font-bold lh-2-5">I will Do Coding and Change The World</h2>
                 <p class="lh-1 op-7">I will code to create impactful solutions, driving innovation and making a positive difference in the world.</p>
@@ -64,7 +65,7 @@
 
             </div>
             <!-- Cart 3 -->
-            <div id="cart-bg-3" class="flex space-between  justify-center items-center w-53 p-2 round-1 flex-row-rev  gap-2 ">
+            <div id="cart-bg-3" class="flex space-between  justify-center items-center md-w-100 w-53 p-2 round-1 flex-row-rev  gap-2 md-flex-col-rev ">
                 <div class=" flex justify-center items-center flex-col">
                     <h2 class="text-1-5 font-bold lh-2-5">I will Do Coding and Change The World</h2>
                 <p class="lh-1 op-7">I will code to create impactful solutions, driving innovation and making a positive difference in the world.</p>
@@ -81,7 +82,7 @@
 
              <!-- My Inspiration Section Started here -->
              <section class="mx-auto mw-60">
-                <div class="text-cente">
+                <div class="text-center">
                     <h1 class="text-black font-xl text-2 lh-3 p-2">My Inspiration</h1>
                     <p class="lh-1 op-7">I am inspired by the power of technology to solve real-world problems. Seeing innovations in web development motivates me to push boundaries, think creatively, and build projects that positively impact users and shape the future.</p>
                   </div>
@@ -90,10 +91,35 @@
                   </div>
               </section>
               <!-- My Inspiration Section Ends here -->
+
+              <!-- I need Support section started here -->
+              <section id="need-support" class="mw-60   mx-auto mt-4 ">
+                <div class="text-center py-25 text-white">
+                  
+                    <h3 class="text-2 font-bold ">I need Support</h3>
+                    <p class="op-7">I need support to overcome challenges, enhance my skills, and achieve my goals in web development.</p>
+
+                    <div class="mt-4">
+                        <input class="message w-30" type="text" placeholder="Suggest me any feedback for me">
+                    <button class="btn">Submit</button>
+                    </div>
+               
+                  </div>
+              </section>
+              <!-- I need Support section Ends here -->
     </main>
 
-    <footer>
-       
+    <footer id="Content"  class="flex space-between items-center mt-4">
+       <h4 class="text-black font-think">An Open Commitment by Awlad Hossain</h4>
+       <div>
+        
+            <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin" style="color: #74C0FC;"></i></a>
+            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+            <a href=""></a>
+            <a href="https://www.tiktok.com/en/"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
     </footer>
+    
 </body>
 </html>
